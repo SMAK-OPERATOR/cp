@@ -21,4 +21,6 @@ int main()
     b.showoct();
     cout << "\nNumber in bin: ";
     b.showbin();
+    cout << endl;
+    system("pause");
 }
