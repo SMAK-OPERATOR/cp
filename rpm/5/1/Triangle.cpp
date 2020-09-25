@@ -1,6 +1,6 @@
 #include "Triangle.h"
 
-void Triangle::returnpoints() { cout << "\nPoints x,y: \m" << fp << "   " << sp << "   " << thp << endl; }
+void Triangle::returnpoints() { cout << "\nPoints x,y: \n" << "   "  << fp << "   " << sp << "   " << thp << endl; }
 
 ostream &operator<<(ostream &out, const Triangle &Triangle)
 {

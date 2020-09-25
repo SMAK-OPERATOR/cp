@@ -62,7 +62,7 @@ int main()
     {
         for (int m = 0; m < amount[0]; m++)
         {
-            cout << m + 1 << "Non-equilateral Triangle: \n";
+            cout << m + 1 << " Non-equilateral Triangle: \n";
             a[m].returnpoints();
             a[m].outlength();
             a[m].angles();
