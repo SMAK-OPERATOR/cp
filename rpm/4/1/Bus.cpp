@@ -98,6 +98,6 @@ void Bus::printon(bool where)
         kk++;
         pv = pv->next;
     }
-    if (kk == kv)
+    if (kk != kv)
         cout << "There are no buses with such parameter" << endl;
 }
