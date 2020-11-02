@@ -1,0 +1,20 @@
+time: Wed Oct 07 13:57:05 2020
+message: hello, file with time
+time: Wed Oct 07 13:57:05 2020
+message: hello, file with time
+time: Wed Oct 07 13:57:05 2020
+message: hello, file with time
+time: Wed Oct 07 13:57:05 2020
+message: hello, file with time
+time: Wed Oct 07 13:57:05 2020
+message: hello, file with time
+time: Wed Oct 07 13:57:05 2020
+message: hello, file with time
+time: Wed Oct 07 13:57:05 2020
+message: hello, file with time
+time: Wed Oct 07 13:57:05 2020
+message: hello, file with time
+time: Wed Oct 07 13:57:05 2020
+message: hello, file with time
+time: Wed Oct 07 13:57:05 2020
+message: hello, file with time

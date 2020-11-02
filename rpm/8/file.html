@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+0| #include &quot;decorators.h&quot;
+1| <font color=0000FF><font color=0000FF><font color=0000FF><font color=0000FF>void</font></font></font></font> q()
+2| {
+3|     <font color=FF0000><font color=FF0000><font color=FF0000><font color=FF0000>return</font></font></font></font>;
+4| }
+5| <font color=0000FF><font color=0000FF><font color=0000FF><font color=0000FF>int</font></font></font></font> main()
+6| {
+7|     std::ofstream FileToWrite(&quot;file.html&quot;);
+8|     std::ifstream FileToRead(&quot;main.cpp&quot;);
+9|     Writer *write = new Writer(FileToRead);
+10|     <font color=0000FF><font color=0000FF>HtmlDecorator</font></font> html(write);
+11|     <font color=0000FF><font color=0000FF>LineDecorator</font></font> ld(write);
+12|     <font color=0000FF><font color=0000FF>CPPDecorator</font></font> cpp(write);
+13|     cpp.change();
+14|     html.change();
+15|     ld.change();
+16|     write-&gt;write(FileToWrite);
+17|     <font color=FF0000><font color=FF0000><font color=FF0000>return</font></font></font> 0;
+18| 
+}}
+</pre>
+</body>
+</html>
